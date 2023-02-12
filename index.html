@@ -2,38 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Kevin's Dev Page</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="kejiquan.ico">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sidebar-styles.css" />
   </head>
-  <body>
-    <table cellspacing="20">
-      <td>
-        <img src="media/kevin.jpg" alt="it'sa me" width="210" height="250" />
-      </td>
-      <td>
-        <h1>Kevin Chu</h1>
-        <em>Software Engineer at Amazon</em>
-        <p>
-          I am a software engineer working at Amazon Payments Risk Engineering
-          as a member of the chargebacks team, which prevents Amazon's bad debt.
-          Currently I am working on a project which will automate parts of the
-          manual chargeback workflow.
-        </p>
-      </td>
-    </table>
-    <br />
-    <hr />
-    <h2>Education</h2>
-    <p> University of California, San Diego</p>
-    <ul>
-      <li>
-        <em><strong>Computer Engineering</strong></em> : Bachelor's of Science
-      </li>
-      <li><a href="https://www.linkedin.com/in/kevinbchu/">LinkedIn</a></li>
-    </ul>
 
-    <h4><a href="info/contact.html">Contact Info </a></h4>
-    <h4><a href="info/experience.html">Experience</a></h4>
-  </body>
+  <main>
+    <body>
+      <div
+        style="
+          margin: 0;
+          background-color: transparent;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+        "
+      >
+        <div style="padding: 10px; background-color: blue">
+          <img src="media/KevinTofuFull.jpeg" height="200" width="270" />
+        </div>
+        <div
+          style="
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 5;
+          "
+        >
+          <ul
+            style="margin: 10px"
+            class="menu-hover-fill flex flex-col items-start leading-none text-2xl uppercase space-y-4"
+          >
+            <li><a href="#!" data-text="home">home</a></li>
+            <li><a href="#!" data-text="archives">archives</a></li>
+            <li><a href="#!" data-text="tags">tags</a></li>
+            <li><a href="#!" data-text="categories">categories</a></li>
+            <li><a href="#!" data-text="about">about</a></li>
+          </ul>
+        </div>
+        <div style="background-color: red; width: 50px; height: 50px"></div>
+        <div style="background-color: orange; width: 50px; height: 50px"></div>
+        <div style="background-color: purple; width: 50px; height: 50px"></div>
+        <div style="background-color: green; width: 50px; height: 50px"></div>
+        <div style="background-color: yellow; width: 50px; height: 50px"></div>
+      </div>
+    </body>
+  </main>
 </html>

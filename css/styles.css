@@ -1,21 +1,8 @@
 body {
-  background-color: #ffd8a9ff;
-}
-
-h1 {
-    color: #E38B29;
-}
-
-h1:hover {
-  color: black
-}
-
-h2 {
-    color: #E38B29;
-}
-
-hr {
-  border-style: none;
-  border-top: 8px dotted orange;
-  width: 5%;
+  display: flex;
+  justify-content: start;
+  align-items: left;
+  min-height: 100vh;
+  background: black;
+  margin: 100px;
 }
