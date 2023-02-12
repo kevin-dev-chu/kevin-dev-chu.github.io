@@ -13,11 +13,15 @@
           margin: 0;
           background-color: transparent;
           display: grid;
+          height: 100vh;
+          width: 100vw;
+          grid-gap: 10px;
           grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
         "
       >
-        <div style="padding: 10px; background-color: blue">
-          <img src="media/KevinTofuFull.jpeg" height="200" width="270" />
+        <div style="padding: 10px; background-color: blue; text-align: center;">
+          <img src="kejiquan.ico" height="120px" width="160px" />
         </div>
         <div
           style="
@@ -38,11 +42,7 @@
             <li><a href="#!" data-text="about">about</a></li>
           </ul>
         </div>
-        <div style="background-color: red; width: 50px; height: 50px"></div>
-        <div style="background-color: orange; width: 50px; height: 50px"></div>
-        <div style="background-color: purple; width: 50px; height: 50px"></div>
-        <div style="background-color: green; width: 50px; height: 50px"></div>
-        <div style="background-color: yellow; width: 50px; height: 50px"></div>
+        <div style="background-color: red; width: 100%; height:100%; grid-column-start: 2; grid-column-end: 15; grid-row-start: 1; grid-row-end: 5;"></div>
       </div>
     </body>
   </main>
