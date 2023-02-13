@@ -1,7 +1,7 @@
 body {
-  display: flex;
   justify-content: start;
   align-items: left;
-  min-height: 100vh;
+  overflow: hidden;
   background: black;
+  margin: 0;
 }
