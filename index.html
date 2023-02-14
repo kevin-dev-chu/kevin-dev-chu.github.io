@@ -10,17 +10,19 @@
     <body>
       <div
         style="
+          justify-content: center;
+          text-align: center;
           height: 100vh;
           width: 100vw;
           display: grid;
-          grid-gap: 10px;
           grid-template-columns: auto 1fr;
           grid-template-rows: auto 1fr;
           background-color: green;
+          position: absolute;
         "
       >
-        <div style="padding: 10px; background-color: blue; text-align: center">
-          <img src="kejiquan.ico" height="120px" width="160px" />
+        <div style="background-color:blue; display:flex; align-items:center; justify-content:center;">
+          <img src="kejiquan.ico" height="60%" width="60%" style="background-color: purple;"/>
         </div>
         <div
           style="
@@ -50,8 +52,10 @@
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 3;
-          "
-        ></div>
+            "
+        >
+        <p style="padding: 30px; background-color: blueviolet;">This is some text</p>
+      </div>
       </div>
     </body>
   </main>
